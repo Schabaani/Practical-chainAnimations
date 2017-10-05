@@ -8,8 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B2FCE9211F865F8C00B0E270 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FCE9201F865F8C00B0E270 /* AppDelegate.swift */; };
-		B2FCE9231F865F8C00B0E270 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FCE9221F865F8C00B0E270 /* ViewController.swift */; };
-		B2FCE9261F865F8C00B0E270 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2FCE9241F865F8C00B0E270 /* Main.storyboard */; };
+		B2FCE9231F865F8C00B0E270 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FCE9221F865F8C00B0E270 /* HomeController.swift */; };
 		B2FCE9281F865F8C00B0E270 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2FCE9271F865F8C00B0E270 /* Assets.xcassets */; };
 		B2FCE92B1F865F8C00B0E270 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2FCE9291F865F8C00B0E270 /* LaunchScreen.storyboard */; };
 		B2FCE9361F865F8C00B0E270 /* Practical_chainAnimationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FCE9351F865F8C00B0E270 /* Practical_chainAnimationsTests.swift */; };
@@ -28,8 +27,7 @@
 /* Begin PBXFileReference section */
 		B2FCE91D1F865F8C00B0E270 /* Practical-chainAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Practical-chainAnimations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2FCE9201F865F8C00B0E270 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B2FCE9221F865F8C00B0E270 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B2FCE9251F865F8C00B0E270 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B2FCE9221F865F8C00B0E270 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		B2FCE9271F865F8C00B0E270 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2FCE92A1F865F8C00B0E270 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2FCE92C1F865F8C00B0E270 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,8 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				B2FCE9201F865F8C00B0E270 /* AppDelegate.swift */,
-				B2FCE9221F865F8C00B0E270 /* ViewController.swift */,
-				B2FCE9241F865F8C00B0E270 /* Main.storyboard */,
+				B2FCE9221F865F8C00B0E270 /* HomeController.swift */,
 				B2FCE9271F865F8C00B0E270 /* Assets.xcassets */,
 				B2FCE9291F865F8C00B0E270 /* LaunchScreen.storyboard */,
 				B2FCE92C1F865F8C00B0E270 /* Info.plist */,
@@ -181,7 +178,6 @@
 			files = (
 				B2FCE92B1F865F8C00B0E270 /* LaunchScreen.storyboard in Resources */,
 				B2FCE9281F865F8C00B0E270 /* Assets.xcassets in Resources */,
-				B2FCE9261F865F8C00B0E270 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,7 +195,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2FCE9231F865F8C00B0E270 /* ViewController.swift in Sources */,
+				B2FCE9231F865F8C00B0E270 /* HomeController.swift in Sources */,
 				B2FCE9211F865F8C00B0E270 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,14 +219,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B2FCE9241F865F8C00B0E270 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B2FCE9251F865F8C00B0E270 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B2FCE9291F865F8C00B0E270 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
