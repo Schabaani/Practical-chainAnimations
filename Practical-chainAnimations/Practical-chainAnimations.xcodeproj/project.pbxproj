@@ -12,6 +12,7 @@
 		B2FCE9281F865F8C00B0E270 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2FCE9271F865F8C00B0E270 /* Assets.xcassets */; };
 		B2FCE92B1F865F8C00B0E270 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2FCE9291F865F8C00B0E270 /* LaunchScreen.storyboard */; };
 		B2FCE9361F865F8C00B0E270 /* Practical_chainAnimationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FCE9351F865F8C00B0E270 /* Practical_chainAnimationsTests.swift */; };
+		B2FCE9471F875FA700B0E270 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FCE9461F875FA700B0E270 /* UIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		B2FCE9311F865F8C00B0E270 /* Practical-chainAnimationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Practical-chainAnimationsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2FCE9351F865F8C00B0E270 /* Practical_chainAnimationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practical_chainAnimationsTests.swift; sourceTree = "<group>"; };
 		B2FCE9371F865F8C00B0E270 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2FCE9461F875FA700B0E270 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewController.swift; path = extensions/UIViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		B2FCE91F1F865F8C00B0E270 /* Practical-chainAnimations */ = {
 			isa = PBXGroup;
 			children = (
+				B2FCE9451F875F8C00B0E270 /* extensions */,
 				B2FCE9201F865F8C00B0E270 /* AppDelegate.swift */,
 				B2FCE9221F865F8C00B0E270 /* HomeController.swift */,
 				B2FCE9271F865F8C00B0E270 /* Assets.xcassets */,
@@ -91,6 +94,14 @@
 				B2FCE9371F865F8C00B0E270 /* Info.plist */,
 			);
 			path = "Practical-chainAnimationsTests";
+			sourceTree = "<group>";
+		};
+		B2FCE9451F875F8C00B0E270 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B2FCE9461F875FA700B0E270 /* UIViewController.swift */,
+			);
+			name = extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +208,7 @@
 			files = (
 				B2FCE9231F865F8C00B0E270 /* HomeController.swift in Sources */,
 				B2FCE9211F865F8C00B0E270 /* AppDelegate.swift in Sources */,
+				B2FCE9471F875FA700B0E270 /* UIViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
