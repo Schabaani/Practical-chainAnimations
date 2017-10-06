@@ -22,7 +22,7 @@ class HomeController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        UIView.animate(withDuration: 1, animations: { 
+        UIView.animate(withDuration: 1, animations: {
             self.backImage.alpha = 1
         }) { (true) in
             self.showMakeDateNow()
@@ -90,7 +90,7 @@ class HomeController: UIViewController {
         signUpButton.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: 50).isActive = true
         signUpButton.bottomAnchor.constraint(equalTo: loginButton.bottomAnchor).isActive = true
         signUpButton.widthAnchor.constraint(equalToConstant: 100).isActive = true
- 
+        
     }
     
     private func showMakeDateNow(){
@@ -102,15 +102,10 @@ class HomeController: UIViewController {
     }
     
     private func showButtons(){
-        UIView.animate(withDuration: 1) { 
+        UIView.animate(withDuration: 1) {
             self.loginButton.alpha = 1
             self.signUpButton.alpha = 1
         }
     }
-
-    
-    
-
-
 }
 
